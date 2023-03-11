@@ -1,0 +1,290 @@
+/*
+Auteur :
+Date de mise en ligne :
+Date de dernière mise à jour :
+*/
+
+@import url(inscription.css);
+
+@font-face {
+    font-family: 'indie_flowerregular';
+    src: url(../FONTS/indieflower-regular-webfont.woff) format('woff2'),
+         url(../FONTS/indieflower-regular-webfont.woff2) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*ICI LE CONTENU DU HEADER DU SITE*/
+body{
+    margin: 0;
+    background-color: #FFFBEB;
+}
+
+header{
+    background-color: #F8CBA6;
+    width: 100%;
+}
+
+.containerheader{
+    display: flex;
+}
+
+#logomusique{
+    height: 8rem;
+}
+
+h1{
+    font-family:'indie_flowerregular' ;
+    margin-top: 2.5%;
+}
+/*ICI LA NAV*/
+nav{
+    width: 50%;
+    margin-left: 8%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ECF9FF;
+    font-size: 120%;
+    font-family: 'indie_flowerregular';
+    margin-left: 20%;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-top: 6%;
+}
+/*ICI LE LOGO DE PROFIL*/
+#logoprofil{
+    height: 7rem;
+    margin-left: 20%;
+}
+
+
+/*ICI LE CONTENU DU MAIN*/
+
+.containermain{
+    display: flex;
+}
+
+.divselect{
+    background-color: #FFE7CC;
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+select{
+    background-color: #F8CBA6;
+    border-radius: 5rem;
+    font-family: 'indie_flowerregular' ;
+    color: #ECF9FF;
+    text-align: center;
+}
+
+/*ICI TOUTES LES CARDS ET LA SEARCH BAR*/
+
+.containercard{
+    width: 100%;
+}
+
+/*SEARCH BAR*/
+.divsearch{
+    padding: 5% 1% 1% 10%;
+}
+
+.inputsearch{
+    background-color:#FFE7CC ;
+    border-radius: 5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #b6957ac4;
+}
+
+.buttonsearch{
+    background-color:#f8cba6 ;
+    padding: 0.5%;
+    border-radius: 5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #b6957ac4;
+}
+
+/*CARD*/
+
+.containerdivcard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.divcard{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    justify-content:center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #F8CBA6;
+    font-family: 'indie_flowerregular';
+    border-radius: 2rem;
+    margin-left: 1%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    box-shadow: 1rem 1rem 1rem #83b4ceb7;
+    width: 30%;
+    height: 30rem;
+}
+
+.card1{
+    margin: 5%;
+}
+
+.imgcard{
+    width: 65%;
+    border-radius: 2rem;
+    margin-left: 18%;
+    box-shadow: 0.5rem 0.5rem 0.5rem;
+}
+
+.buttonplay{
+    width: 15%;
+    padding: 2% 2% 2% 2%;
+    background-color:#AEE2FF ;
+    border-radius: 5rem;
+    margin-left: 43%;
+    margin-top: 12%;
+}
+
+h2{
+    width: 40%;
+    margin-left: 32%;
+}
+
+/*ICI LE CONTENU DU FOOTER*/
+
+.containerfooter{
+    font-family:'indie_flowerregular' ;
+    background-color: #F8CBA6;
+    display: flex;
+}
+
+.copyright{
+    font-size: 1.5rem;
+    margin-top: 1%;
+    margin-left: 2%;
+    color: #ECF9FF;
+}
+
+.divreseauxsocial{
+    margin-left: 20%;
+    margin-top: 1.3%;
+}
+
+.logoreseaux{
+    width: 3%;
+    margin-left: 10%;
+}
+
+#logofooter{
+    width: 5%;
+    margin-right: 2%;
+}
+
+
+@media screen and (max-width: 425px) {
+    h1{
+        display: none;
+    }
+/*HEADER*/
+    #logomusique{
+        height: 4rem;
+    }
+
+    nav{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    nav ul li a {
+        width: 5rem;
+        font-size: 1rem;
+        margin-left: 2%;
+        margin-top: 0%;
+    }
+
+    #logoprofil{
+        height: 3rem;
+        margin-left: -30%;
+        margin-top: 2%;
+    }
+/*MAIN*/
+    .divselect{
+        width: 25%;
+    }
+/*SELECT*/
+    #musiqueselect{
+        margin-left: 1%;
+        width: 100%;
+    }
+/*SEARCH BAR*/
+    .inputsearch{
+        width: 50%;
+        margin-left: 15%;
+    }
+/*CARD*/
+.divcard{
+    flex-direction: column;
+}
+
+h2{
+    width: 10rem;
+    margin-left: -15%;
+}
+
+.card{
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 0.8rem;
+    width: 30%;
+    height: 10%;
+}
+
+.imgcard{
+    width: 150%;
+    margin-left: -20%;
+}
+
+.buttonplay{
+    width: 50%;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+}
+/*FOOTER*/
+.copyright{
+    font-size: 1rem;
+    margin-top: 10%;
+}
+
+.divreseauxsocial{
+    display: flex;
+    margin-left: auto;
+    margin-top: 12%;
+}
+
+.logoreseaux{
+    width: 30%;
+    height: 45%;
+}
+
+#logofooter{
+    margin-top: 11%;
+    margin-left: 1%;
+    width: 15%;
+    height: 3rem;
+}
+}

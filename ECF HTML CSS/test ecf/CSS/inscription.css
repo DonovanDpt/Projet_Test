@@ -1,0 +1,102 @@
+
+
+
+/*ICI LE CSS DU FORMULAIRE*/
+
+
+
+.containerform{
+    font-family: 'indie_flowerregular';
+    background-color: #F8CBA6;
+    width: 50%;
+    border-radius: 5rem;
+    margin-left: 20%;
+    margin-top: 10%;
+    box-shadow: 1rem 1rem 1rem #83b4ceb7;
+}
+
+.textinscription{
+    margin-left: 42%;
+    padding-top: 15%;
+    font-size: 2rem;
+}
+
+#imgsolfège{
+    width: 60%;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+form{
+    border-radius: 20%;
+    padding-left: 28%;
+    margin-bottom: 30%;
+    padding-bottom: 5%;
+    padding-top: 15%;
+}
+
+.divform1{
+    margin-bottom: 5%;
+    margin-left: -25%;
+}
+
+
+
+.inputform{
+    border-radius: 5rem;
+    text-align: center;
+    width: 35%;
+    height: 2rem;
+    font-family: 'indie_flowerregular';
+    font-size: 1rem;
+    background-color: #ECF9FF;
+    margin: 5%;
+    border: none;
+    box-shadow: 0.5rem 0.5rem 0.5rem #83b4ceb7;
+}
+
+.submitbutton{
+    margin-left: 70%;
+    margin-top: 20%;
+    border-radius: 5rem;
+    background-color: #ECF9FF;
+    border: none;
+    padding: 2%;
+    box-shadow: 0.5rem 0.5rem 0.5rem #83b4ceb7;
+}
+
+/*ICI LA MEDIA QUERIES DU FORMULAIRE*/
+
+@media screen and (max-width: 425px) {
+    .containerform{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+
+    .textinscription{
+        font-size: 100%;
+        margin-left: 38%;
+    }
+
+    #imgsolfège{
+        margin-top: -5%;
+    }
+
+    .inputform{
+        font-size: 0.8rem;
+        width: 50%;
+        margin-left: 20%;
+    }
+
+    form{
+        margin-top: -10%;
+    }
+
+    
+    .submitbutton{
+        margin-left: 18%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
